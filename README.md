@@ -65,8 +65,22 @@ Time to get those website's files inside your bucket!
 ```
 1) In the Buckets section, choose the name of your new bucket.
 ```
-```2) 
-
-
+```
+2) Upload these files into your bucket (right click on each link, and select Save link as index.html and a zip file
+```
+```
+3) Unzip the zip file you've downloaded.
+```
+```
+4) Return to the Amazon S3 console with your bucket page open. Choose the Objects tab.
+4.1) Choose Upload.
+4.2) Choose Add files.
+4.3) Choose index.html.
+4.4) Choose Add folder.
+4.5) Choose the unzipped folder - NOT the zip file itself!
+4.6) You might get a popup that tells you that all files in that folder will be uploaded.
+4.7) Choose Upload.
+S3 will get to work right away!
+```
 
 
