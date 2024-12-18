@@ -86,3 +86,33 @@ S3 will get to work right away!
 5) Choose Close when you see the green Upload succeeded banner.
 ```
 
+# Configure a static website on Amazon S3
+
+```
+1) Configure your S3 bucket for static website hosting
+```
+```
+2) Visit your public website link.
+```
+
+#What does website hosting mean?
+Website hosting is what makes your website public on the internet.
+
+Even if you perfect an HTML file, no one else can see it when it's stored as a local file on your computer! Website hosting = storing your HTML file (and the other files for your website) on a web server, so it's accessible online.
+
+By configuring your S3 bucket for hosting, we're telling this bucket: "please create a URL that will take anyone to a page that displays the HTML file I just uploaded."
+```
+3) Make sure you're back in your bucket's page. If you're not sure, choose Buckets on the left hand side navigation bar, and then choose the bucket you created for this project.
+```
+```
+4) Choose the Properties tab.
+```
+```
+5) Scroll allllllllll the way down to the Static website hosting panel.
+```
+```
+6) Configure the following settings:
+6.1) Static web hosting: Choose Enable.
+6.2) Hosting type: Choose Host a static website.
+6.3) Index document: Enter index.html
+```
