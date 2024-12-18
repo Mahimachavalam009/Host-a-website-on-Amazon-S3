@@ -40,9 +40,16 @@ Enabling ACLs in this S3 setup lets you control who can access and do things wit
 
 With ACLs, different AWS accounts can own and control different files in your bucket.
 
+```6) Choose Bucket owner preferred.
+```
 
-💡 What is the yellow pop up saying?
+```
+7) For Block Public Access settings for this bucket, clear the check box for Block all public access.
+```
+# What is the yellow pop up saying?
 A yellow warning banner will pop up when you enable ACLs. This banner tells you that it's simpler to use another tool called bucket policies.
+
+
 
 It's true that bucket policies make it really easy to control access for an entire bucket (e.g. making the entire bucket and everything inside public), but ACLs are the way to go if you want to manage access for each object in your bucket individually.
 
