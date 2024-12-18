@@ -120,3 +120,16 @@ By configuring your S3 bucket for hosting, we're telling this bucket: "please cr
 ```
 7) Choose Save changes.
 ```
+
+```
+8) In the Static website hosting panel, click on the URL under Bucket website endpoint.
+```
+
+An error pops
+# Why did I get this error?
+Objects (in this case, the HTML and images files you uploaded) are private by default. This default setting helps keep your account's data secure.
+
+The error message you're seeing is telling you that your static website is being hosted by S3, but the actual HTML/image files you've uploaded are still private. It's kind of like having a bucket on display, so everyone can see the bucket - but the contents are covered up, preventing anyone from seeing what's inside.
+
+To solve this error, we need to set the permission of the objects to public - this is why we enabled ACLs in Task 1!
+
