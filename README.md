@@ -78,14 +78,11 @@ Time to get those website's files inside your bucket!
 4.3) Choose index.html.
 4.4) Choose Add folder.
 4.5) Choose the unzipped folder - NOT the zip file itself!
-```
-```
-5) Choose Close when you see the green Upload succeeded banner.
-```
-
 4.6) You might get a popup that tells you that all files in that folder will be uploaded.
 4.7) Choose Upload.
 S3 will get to work right away!
 ```
-
+```
+5) Choose Close when you see the green Upload succeeded banner.
+```
 
