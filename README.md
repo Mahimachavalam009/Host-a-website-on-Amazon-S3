@@ -152,3 +152,7 @@ To solve this error, we need to set the permission of the objects to public - th
 ```
 5) Choose Make public. Once the green banner pops up, choose Close.
 ```
+```
+6) Return to the web browser tab that has the 403 Forbidden message.
+Refresh the tab.
+```
