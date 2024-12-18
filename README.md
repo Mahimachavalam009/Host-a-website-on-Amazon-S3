@@ -48,6 +48,8 @@ It's true that bucket policies make it really easy to control access for an enti
 7) For Block Public Access settings for this bucket, clear the check box for Block all public access.
 7.1) Check the box that says “I acknowledge that the current settings might result in this bucket and the objects within becoming public.”
 ```
+![Screenshot 2024-12-18 171208](https://github.com/user-attachments/assets/755d547b-148b-4be4-9e34-2fb9d217ca7d)
+
 # What is the yellow pop up saying?
 A yellow warning banner will pop up when you enable ACLs. This banner tells you that it's simpler to use another tool called bucket policies.
 
