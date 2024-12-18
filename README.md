@@ -87,6 +87,7 @@ S3 will get to work right away!
 ```
 5) Choose Close when you see the green Upload succeeded banner.
 ```
+![Screenshot 2024-12-18 224744](https://github.com/user-attachments/assets/8b2d9878-3b28-49c8-bdc8-4c63a245b5c2)
 
 # Configure a static website on Amazon S3
 
@@ -101,6 +102,7 @@ S3 will get to work right away!
 Website hosting is what makes your website public on the internet.
 
 Even if you perfect an HTML file, no one else can see it when it's stored as a local file on your computer! Website hosting = storing your HTML file (and the other files for your website) on a web server, so it's accessible online.
+![Screenshot 2024-12-18 225307](https://github.com/user-attachments/assets/d9180fbc-5d92-4b8c-abcb-9e0638e467c2)
 
 By configuring your S3 bucket for hosting, we're telling this bucket: "please create a URL that will take anyone to a page that displays the HTML file I just uploaded."
 ```
@@ -126,6 +128,7 @@ By configuring your S3 bucket for hosting, we're telling this bucket: "please cr
 ```
 8) In the Static website hosting panel, click on the URL under Bucket website endpoint.
 ```
+![Screenshot 2024-12-18 225810](https://github.com/user-attachments/assets/f5b959b2-4871-4d3f-9fd2-1e2bab97fd77)
 
 An error pops
 # Why did I get this error?
@@ -158,3 +161,4 @@ To solve this error, we need to set the permission of the objects to public - th
 6) Return to the web browser tab that has the 403 Forbidden message.
 Refresh the tab.
 ```
+![Screenshot 2024-12-18 231530](https://github.com/user-attachments/assets/ae4898f6-0034-4a64-b889-98fb8ce712dc)
