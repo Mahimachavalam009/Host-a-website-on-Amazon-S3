@@ -32,8 +32,8 @@ This also means that when you create your bucket, you need to make sure the buck
 ```
 5) For Object Ownership, choose ACLs enabled.
 ```
-# Imp
- Ooo what are ACLs (Access Control Lists)?
+
+# what are ACLs (Access Control Lists)?
 An ACL = a set of rules that decides who can get access to a resource.
 
 Enabling ACLs in this S3 setup lets you control who can access and do things with the objects (i.e. website files) you upload into your bucket.
