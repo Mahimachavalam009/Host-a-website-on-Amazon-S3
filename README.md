@@ -37,8 +37,8 @@ This also means that when you create your bucket, you need to make sure the buck
 An ACL = a set of rules that decides who can get access to a resource.
 
 Enabling ACLs in this S3 setup lets you control who can access and do things with the objects (i.e. website files) you upload into your bucket.
-
 With ACLs, different AWS accounts can own and control different files in your bucket.
+It's true that bucket policies make it really easy to control access for an entire bucket (e.g. making the entire bucket and everything inside public), but ACLs are the way to go if you want to manage access for each object in your bucket individually.
 
 ```
 6) Choose Bucket owner preferred.
@@ -68,5 +68,5 @@ Time to get those website's files inside your bucket!
 ```2) 
 
 
-It's true that bucket policies make it really easy to control access for an entire bucket (e.g. making the entire bucket and everything inside public), but ACLs are the way to go if you want to manage access for each object in your bucket individually.
+
 
