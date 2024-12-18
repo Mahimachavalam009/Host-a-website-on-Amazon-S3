@@ -116,3 +116,7 @@ By configuring your S3 bucket for hosting, we're telling this bucket: "please cr
 6.2) Hosting type: Choose Host a static website.
 6.3) Index document: Enter index.html
 ```
+
+```
+7) Choose Save changes.
+```
