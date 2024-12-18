@@ -133,3 +133,22 @@ The error message you're seeing is telling you that your static website is being
 
 To solve this error, we need to set the permission of the objects to public - this is why we enabled ACLs in Task 1!
 
+# Make objects in your S3 bucket public
+```
+1) Make your website files in S3 publicly accessible.
+```
+
+```
+2) See your website live on the internet!
+```
+
+```
+3) Select the checkboxes next to your index.html file and the folder of website assets.
+```
+
+```
+4) In the Actions dropdown, choose Make public using ACL.
+```
+```
+5) Choose Make public. Once the green banner pops up, choose Close.
+```
