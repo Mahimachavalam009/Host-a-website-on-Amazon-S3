@@ -40,7 +40,8 @@ Enabling ACLs in this S3 setup lets you control who can access and do things wit
 
 With ACLs, different AWS accounts can own and control different files in your bucket.
 
-```6) Choose Bucket owner preferred.
+```
+6) Choose Bucket owner preferred.
 ```
 
 ```
