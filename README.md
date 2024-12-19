@@ -68,7 +68,7 @@ Time to get those website's files inside your bucket!
 1) In the Buckets section, choose the name of your new bucket.
 ```
 ```
-2) Upload these files into your bucket (right click on each link, and select Save link as index.html and a zip file
+2) Upload these files into your bucket (right click on each link, and select Save link as index.html and a zip file.
 ```
 ```
 3) Unzip the zip file you've downloaded.
